@@ -1,0 +1,130 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    height: 100px;
+    background-color: rgb(166, 115, 214);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.cabecalho{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 5em;
+}
+.menu{
+    display: flex;
+    gap: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.menu1{
+    color: white;
+}
+.minhahistoria{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 400px;
+    background-image: url(../imagens/pexels-cottonbro-studio-4686958.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.minhahistoria-paragrafo{
+height: 400px;
+width: 600px;
+text-align: justify;
+padding-top: 40px;
+}
+.minhahistoria-titulo{
+    padding-top: 30px;
+}
+section.meusdesenhos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 400px;
+    background-image: url(../imagens/pexels-cottonbro-studio-4686958.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.desenho1{
+    border-radius: 20px;
+    border: 3px solid black;
+    width: 300px;
+    height: 300px;
+}
+.desenho2{
+    border: 3px solid black;
+    border-radius: 20px;
+    width: 300px;
+    height: 300px;
+
+}
+.desenho3{
+    border: 3px solid black;
+    border-radius: 20px;
+    width: 300px;
+    height: 300px;
+}
+
+.meusbrinquedos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 400px;
+    background-image: url(../imagens/pexels-cottonbro-studio-4686958.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.desenho4{
+    border: 3px solid black;
+    border-radius: 20px;
+    width: 300px;
+    height: 300px;
+}
+.desenho5{
+    border: 3px solid black;
+    border-radius: 20px;
+    width: 300px;
+    height: 300px;
+}
+.desenho6{
+    border: 3px solid black;
+    border-radius: 20px;
+    width: 300px;
+    height: 300px;
+}
+.desenho7{
+    border: 3px solid black;
+    border-radius: 20px;
+    width: 300px;
+    height: 300px;
+}
+.minhasfotos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 400px;
+    background-image: url(../imagens/pexels-cottonbro-studio-4686958.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
