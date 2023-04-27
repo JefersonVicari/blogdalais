@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+
+@media screen and (min-width: 768px){
+
+    header{
+        height: 100px;
+        background-color: rgb(192, 226, 43);
+        
+    }
+    .menu{
+        gap: 50px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+
+    }
+    .cabecalho{
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 4.0em;
+    }
+    .minhahistoria-caixa1{
+        box-shadow: 2px 2px 10px black;
+        background-color: rgba(240, 248, 255, 0.555);
+        border-radius: 20px;
+        height: 350px;
+        width: 500px;
+    }
+    .minhahistoria-caixa2{
+        box-shadow: 2px 2px 10px black;
+        background-color: aliceblue;
+        border-radius: 20px;
+        height: 350px;
+        width: 500px;
+    }
+    .minhahistoria-paragrafo{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        text-align: justify;
+        padding: 10px;
+        font-size:large;
+    }
+
+    .meusdesenhos{
+        background-color: green;
+        height: 400px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;    
+    }
+
+
+}
+
+
+    
+
+
+
+
